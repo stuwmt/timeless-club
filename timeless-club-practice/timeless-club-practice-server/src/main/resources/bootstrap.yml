@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: timeless-club-practice-dev
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: xxxxxx:8848
+        prefix: ${spring.application.name}
+        group: DEFAULT_GROUP
+        namespace:
+        file-extension: yaml
+      discovery:
+        enabled: true
+        server-addr: xxxxxx:8848

@@ -1,0 +1,6 @@
+server:
+  port: 4000
+minio:
+  url: http://xxxxxxx
+  accessKey: minioadmin
+  secretKey: minioadmin
