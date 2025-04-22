@@ -25,7 +25,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @Service
-public class timelessInterviewEngine implements InterviewEngine {
+public class TimelessInterviewEngine implements InterviewEngine {
 
 
     private List<SubjectLabel> labels;
